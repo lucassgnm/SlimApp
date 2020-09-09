@@ -1,0 +1,64 @@
+{
+  "version": 2,
+  "dgSpecHash": "TitWIGeD2fdfg3i3STu4kXNXevDTFzlCQ363N42ehLO3BExA7OvO/+RVP+WUu6uT3LOVN03+MlXxIZigXdRAGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\neves\\source\\repos\\HandSmartSlim\\HandSmartSlim\\HandSmartSlim\\HandSmartSlim.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\neves\\.nuget\\packages\\acr.userdialogs\\7.1.0.450\\acr.userdialogs.7.1.0.450.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\microsoft.bcl.build\\1.0.21\\microsoft.bcl.build.1.0.21.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\rg.plugins.popup\\2.0.0.4\\rg.plugins.popup.2.0.0.4.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\xamarin.forms.behaviorvalidationpack\\1.1.1\\xamarin.forms.behaviorvalidationpack.1.1.1.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\zxing.net.mobile\\2.3.2\\zxing.net.mobile.2.3.2.nupkg.sha512",
+    "C:\\Users\\neves\\.nuget\\packages\\zxing.net.mobile.forms\\2.3.2\\zxing.net.mobile.forms.2.3.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.Bcl 1.1.10' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.Bcl",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.Net.Http 2.2.29' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.Net.Http",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'ZXing.Net.Mobile 2.3.2' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "ZXing.Net.Mobile",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'ZXing.Net.Mobile.Forms 2.3.2' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto '.NETStandard,Version=v2.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "ZXing.Net.Mobile.Forms",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
