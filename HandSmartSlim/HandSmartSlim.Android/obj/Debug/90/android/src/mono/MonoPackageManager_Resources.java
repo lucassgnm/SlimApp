@@ -9,6 +9,8 @@ public class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"HandSmartSlim.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"Rg.Plugins.Popup.dll",
 		"System.Net.Http.Extensions.dll",
 		"System.Net.Http.Primitives.dll",

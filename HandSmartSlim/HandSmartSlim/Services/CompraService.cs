@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace HandSmartSlim.Services
 {
@@ -17,19 +18,51 @@ namespace HandSmartSlim.Services
         }
 
         // Função responsável por buscar o Produto
-        public RespostaApi InsereProdutoVenda(string codProduto)
+        public dynamic InsereProdutoVenda(string codProduto)
         {
             // Envia a requisição para realizaLogin
             var json = EnviaRequisicao("/insereProdutoVenda",
-                "codProduto="   + codProduto +
-                "&idCliente= "  + ClienteLogado.id +
+                "codProduto=" + codProduto +
+                "&idCliente= " + ClienteLogado.id +
                 "&cpfCliente= " + ClienteLogado.cpf
             );
 
-            // Formata o Json
-            RespostaApi result = JsonConvert.DeserializeObject<RespostaApi>(json);
+            dynamic venda = null;
+            bool erro = false;
 
-            return result;
+            // Converte para a lista
+            try
+            {
+                venda = JsonConvert.DeserializeObject<List<CompraModel>>(json);
+
+            } catch (Exception ex)
+            {
+                erro = true;
+            }
+
+            if (erro)
+            {
+                // Formata o Json
+                venda = JsonConvert.DeserializeObject<RespostaApi>(json);
+            }
+            
+            
+            // Retorna a requisição
+            return venda;
+        }
+
+        public List<CompraModel> BuscaVendaAberta()
+        {
+            // Envia a requisição para realizaLogin
+            var json = EnviaRequisicao("/buscaVendaAbertaCliente",
+                "idCliente=" + ClienteLogado.id
+            );
+
+            // Converte para a lista
+            var venda = JsonConvert.DeserializeObject<List<CompraModel>>(json);
+
+            // Retorna a requisição
+            return venda;
         }
 
     }

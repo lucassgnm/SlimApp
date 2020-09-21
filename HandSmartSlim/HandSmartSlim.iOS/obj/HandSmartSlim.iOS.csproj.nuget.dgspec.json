@@ -115,6 +115,10 @@
               "target": "Package",
               "version": "[1.0.21, )"
             },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "Microsoft.Net.Http": {
               "target": "Package",
               "version": "[2.2.29, )"
@@ -132,6 +136,10 @@
             "Rg.Plugins.Popup": {
               "target": "Package",
               "version": "[2.0.0.4, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

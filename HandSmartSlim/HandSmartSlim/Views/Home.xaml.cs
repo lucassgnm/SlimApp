@@ -1,5 +1,6 @@
 ﻿using HandSmartSlim.Models;
 using HandSmartSlim.Util;
+using Rg.Plugins.Popup.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -55,8 +56,23 @@ namespace HandSmartSlim.Views
 
         private async void AbrePaginaCompra(object sender, EventArgs e)
         {
+            // Chama o Popup de Loading
+            await PopupNavigation.Instance.PushAsync(new LoadingPopUpView());
             // Chama a página de compra
             await Navigation.PushAsync(new Compra());
+        }
+
+        private async void AbrePaginaCartoes(object sender, EventArgs e)
+        {
+            // Chama o Popup de Loading
+            await PopupNavigation.Instance.PushAsync(new LoadingPopUpView());
+            // Chama a página de compra
+            await Navigation.PushAsync(new Cartoes());
+        }
+
+        private void SaiDoApp(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
         }
     }
 }

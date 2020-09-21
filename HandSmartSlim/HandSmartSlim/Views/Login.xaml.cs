@@ -10,6 +10,7 @@ using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 using Xamarin.Essentials;
 using Xamarin.Forms.Xaml;
+using Plugin.Connectivity;
 
 namespace HandSmartSlim.Views
 {
@@ -24,8 +25,6 @@ namespace HandSmartSlim.Views
             // Remove a guia de navegação da página
             NavigationPage.SetHasNavigationBar(this, false);
             clienteService = new ClienteService();
-
-           
         }
 
         protected override void OnAppearing()
@@ -59,6 +58,15 @@ namespace HandSmartSlim.Views
             // Verifica os campos
             if (VerificaCamposLogin())
             {
+                // Verifica a conexão com a internet
+                if (!CrossConnectivity.Current.IsConnected)
+                {
+                    bool answer = await DisplayAlert("Atenção",
+                        "Não foi possivel conectar-se com a internet, verifique sua conexão e tente novamente!", 
+                        "Cancelar", "Tentar Novamente");
+                    
+                    return;
+                }
                 // Chama o Popup de Loading
                 await PopupNavigation.Instance.PushAsync(new LoadingPopUpView());
 

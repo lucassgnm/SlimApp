@@ -2,7 +2,6 @@ C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\bin\Debug\
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\bin\Debug\netstandard2.0\HandSmartSlim.dll
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\bin\Debug\netstandard2.0\ref\HandSmartSlim.dll
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\bin\Debug\netstandard2.0\HandSmartSlim.pdb
-C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\HandSmartSlim.csprojAssemblyReference.cache
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
@@ -19,3 +18,9 @@ C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\Views\Compra.xaml.g.cs
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\HandSmartSlim.csproj.CoreCompileInputs.cache
 C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\HandSmartSlim.csproj.CopyComplete
+C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\HandSmartSlim.csprojAssemblyReference.cache
+C:\Users\neves\source\repos\HandSmartSlim\HandSmartSlim\HandSmartSlim\obj\Debug\netstandard2.0\Views\Cartoes.xaml.g.cs
