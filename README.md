@@ -12,3 +12,5 @@ Para estar rodando o aplicativo basta possuir no Visual Studio o pacote de desen
   <dt>Nescau Original 400g</dt>
   <dt>Leite Condensado Italac 395g</dt>
 </ul>
+
+<b>*Observação: O aplicativo foi desenvolvido exclusivamente para a plataforma Android</b>
